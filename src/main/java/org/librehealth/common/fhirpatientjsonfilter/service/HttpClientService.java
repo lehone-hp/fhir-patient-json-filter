@@ -43,9 +43,6 @@ public class HttpClientService {
                 result.append(line);
             }
 
-            //System.out.println("Resource: \n"+
-              //      JsonUtils.toPrettyJsonString(new JSONParser().parse(result.toString())));
-
             return result.toString();
         } catch (IOException ioe) {
             ioe.printStackTrace();
