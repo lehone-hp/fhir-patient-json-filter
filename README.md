@@ -66,4 +66,5 @@ use
     
     sudo nd serve
     
-and access the application on your browser at localhost:4200
+and access the application on your browser at localhost:4200 and if everything was setup well, you should have
+![alt text](https://user-images.githubusercontent.com/23194068/37020721-1d42ddf4-211d-11e8-85df-41c1e32b19f1.png)
