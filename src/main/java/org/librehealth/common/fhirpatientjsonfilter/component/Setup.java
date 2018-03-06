@@ -28,7 +28,7 @@ public class Setup implements CommandLineRunner {
     public void run(String... strings) {
 
         // Corresponding fhirtest.uh.ca ids for the different entities
-        String[] patientIds = {"14842", "patient-43", "cf-1517368349477", "275145", "cc-pat-david"};
+        String[] patientIds = {"14842", "726442", "cf-1517368349477", "275145", "cc-pat-david"};
         String[] encounterIds = {"encounter-654", "encounter-645", "encounter-643", "encounter-568", "encounter-68"};
         String[][] observations = {
                 {"330384", "306458", "14859", "270910", "200767" },

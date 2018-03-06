@@ -23,7 +23,11 @@ public class MainController {
                                  @RequestParam(value="encounter", required = false) String encounter,
                                  @RequestParam(value="observation", required = false) String observation){
 
-        return patientRepo.findPatient(gender, encounter, observation);
+	    	if (gender.isEmpty() && encounter.isEmpty() && observation.isEmpty()){
+    			return patientRepo.findAll();
+    		}
 
+        return patientRepo.findPatient(gender, encounter, observation);
+    	
     }
 }
