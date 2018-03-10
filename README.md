@@ -25,8 +25,8 @@ build the application
 
     mvn clean package
     
-### Run the application on port 8080
-Ensure that no other application is running on 8080
+### Run the application on port 8091
+Ensure that no other application is running on 8091
 
     cd target
     
